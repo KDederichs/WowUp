@@ -52,7 +52,7 @@ export class OptionsAddonSectionComponent implements OnInit, OnDestroy {
   public preferenceForm = new UntypedFormGroup({
     cfV2ApiKey: new UntypedFormControl(""),
     ghPersonalAccessToken: new UntypedFormControl(""),
-    wagoAccessToken: new FormControl(""),
+    wagoAccessToken: new UntypedFormControl(""),
   });
 
   public constructor(
